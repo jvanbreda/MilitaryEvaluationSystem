@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="535.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dataflow.militaryevaluationsystem.MainWindowController">
+   <children>
+      <Pane fx:id="heartbeat_area" layoutX="14.0" layoutY="168.0" prefHeight="285.0" prefWidth="368.0" />
+      <Pane fx:id="bodytemp_area" layoutX="384.0" layoutY="168.0" prefHeight="285.0" prefWidth="368.0" />
+      <Button layoutX="14.0" layoutY="496.0" mnemonicParsing="false" onAction="#startSession" text="Start Session" />
+      <Button layoutX="612.0" layoutY="496.0" mnemonicParsing="false" onAction="#endSession" text="End Session" />
+      <Button layoutX="702.0" layoutY="496.0" mnemonicParsing="false" onAction="#export" text="Export" />
+   </children>
+</AnchorPane>
