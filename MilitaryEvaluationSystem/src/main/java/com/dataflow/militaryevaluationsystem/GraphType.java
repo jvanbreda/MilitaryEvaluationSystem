@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PApplets;
+package com.dataflow.militaryevaluationsystem;
 
 /**
  *
  * @author Jesse
  */
-public class BodyTempGraph {
-    
+public enum GraphType {
+    HeartRate,
+    BodyTemp
 }

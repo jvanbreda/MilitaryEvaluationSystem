@@ -1,2 +1,10 @@
+com\dataflow\militaryevaluationsystem\PApplets\Canvas.class
 com\dataflow\militaryevaluationsystem\MainApp.class
+com\dataflow\militaryevaluationsystem\data\DataProvider.class
+com\dataflow\militaryevaluationsystem\graphs\BodyTempGraph.class
+com\dataflow\militaryevaluationsystem\graphs\HeartRateGraph.class
+com\dataflow\militaryevaluationsystem\PApplets\Canvas$1.class
+com\dataflow\militaryevaluationsystem\GraphType.class
 com\dataflow\militaryevaluationsystem\MainWindowController.class
+com\dataflow\militaryevaluationsystem\graphs\Graph.class
+com\dataflow\militaryevaluationsystem\models\ShirtData.class
